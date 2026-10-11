@@ -1,0 +1,900 @@
+Reading: {'temperature': 83, 'pressure': 2.92, 'vibration': 1.5, 'current': 6.72} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Reading: {'temperature': 60, 'pressure': 2.84, 'vibration': 1.96, 'current': 5.75} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 77, 'pressure': 2.61, 'vibration': 4.52, 'current': 5.77} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Reading: {'temperature': 65, 'pressure': 3.33, 'vibration': 2.92, 'current': 6.25} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 84, 'pressure': 1.11, 'vibration': 3.27, 'current': 5.54} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Reading: {'temperature': 63, 'pressure': 1.04, 'vibration': 1.8, 'current': 8.4} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 63, 'pressure': 1.36, 'vibration': 2.56, 'current': 11.79} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 74, 'pressure': 3.98, 'vibration': 0.46, 'current': 14.07} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 71, 'pressure': 2.05, 'vibration': 1.33, 'current': 5.85} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 73, 'pressure': 3.88, 'vibration': 4.5, 'current': 13.38} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Reading: {'temperature': 77, 'pressure': 4.08, 'vibration': 3.36, 'current': 6.71} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE
+Reading: {'temperature': 58, 'pressure': 3.75, 'vibration': 1.14, 'current': 9.96} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 57, 'pressure': 3.18, 'vibration': 0.61, 'current': 7.65} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 73, 'pressure': 1.52, 'vibration': 2.67, 'current': 12.1} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 83, 'pressure': 1.9, 'vibration': 1.74, 'current': 10.44} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Reading: {'temperature': 59, 'pressure': 2.27, 'vibration': 1.97, 'current': 14.07} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 87, 'pressure': 4.36, 'vibration': 4.37, 'current': 8.93} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Reading: {'temperature': 61, 'pressure': 4.14, 'vibration': 3.39, 'current': 7.11} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE
+Reading: {'temperature': 54, 'pressure': 3.03, 'vibration': 0.45, 'current': 10.18} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 60, 'pressure': 1.38, 'vibration': 1.37, 'current': 13.29} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 51, 'pressure': 2.87, 'vibration': 1.4, 'current': 10.05} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 50, 'pressure': 4.1, 'vibration': 0.65, 'current': 7.53} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE
+Reading: {'temperature': 50, 'pressure': 1.25, 'vibration': 3.67, 'current': 11.71} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 81, 'pressure': 2.04, 'vibration': 3.06, 'current': 10.42} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Reading: {'temperature': 85, 'pressure': 3.61, 'vibration': 4.82, 'current': 14.93} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Reading: {'temperature': 59, 'pressure': 1.86, 'vibration': 3.61, 'current': 11.66} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 93, 'pressure': 2.3, 'vibration': 1.7, 'current': 14.0} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Reading: {'temperature': 56, 'pressure': 2.4, 'vibration': 2.0, 'current': 5.44} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 73, 'pressure': 2.38, 'vibration': 0.11, 'current': 5.95} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 67, 'pressure': 3.52, 'vibration': 2.44, 'current': 6.49} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 65, 'pressure': 3.75, 'vibration': 0.65, 'current': 5.27} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 58, 'pressure': 1.25, 'vibration': 1.71, 'current': 11.33} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 89, 'pressure': 3.5, 'vibration': 1.94, 'current': 13.06} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 70, 'pressure': 1.04, 'vibration': 3.89, 'current': 8.03} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 53, 'pressure': 2.95, 'vibration': 2.59, 'current': 9.81} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 82, 'pressure': 4.55, 'vibration': 4.44, 'current': 8.85} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP
+Reading: {'temperature': 58, 'pressure': 2.2, 'vibration': 3.96, 'current': 12.18} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 92, 'pressure': 1.79, 'vibration': 4.04, 'current': 9.35} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP
+Reading: {'temperature': 72, 'pressure': 2.89, 'vibration': 0.83, 'current': 13.62} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 50, 'pressure': 1.2, 'vibration': 4.36, 'current': 6.14} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Reading: {'temperature': 92, 'pressure': 2.26, 'vibration': 4.64, 'current': 10.63} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP
+Reading: {'temperature': 66, 'pressure': 1.01, 'vibration': 3.86, 'current': 10.89} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 69, 'pressure': 3.92, 'vibration': 1.3, 'current': 14.31} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 75, 'pressure': 2.21, 'vibration': 0.27, 'current': 5.17} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 74, 'pressure': 4.5, 'vibration': 3.99, 'current': 14.31} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD
+Reading: {'temperature': 51, 'pressure': 1.66, 'vibration': 3.37, 'current': 11.17} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 95, 'pressure': 1.23, 'vibration': 2.03, 'current': 9.08} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Reading: {'temperature': 61, 'pressure': 4.97, 'vibration': 1.51, 'current': 14.35} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 93, 'pressure': 4.11, 'vibration': 4.88, 'current': 8.64} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP
+Reading: {'temperature': 73, 'pressure': 2.82, 'vibration': 4.89, 'current': 14.95} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD
+Reading: {'temperature': 93, 'pressure': 2.45, 'vibration': 2.19, 'current': 6.39} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Reading: {'temperature': 80, 'pressure': 3.22, 'vibration': 4.35, 'current': 10.18} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Reading: {'temperature': 90, 'pressure': 2.34, 'vibration': 1.52, 'current': 7.84} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Reading: {'temperature': 81, 'pressure': 4.67, 'vibration': 4.48, 'current': 7.48} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP
+Reading: {'temperature': 94, 'pressure': 3.19, 'vibration': 4.21, 'current': 6.03} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP
+Reading: {'temperature': 58, 'pressure': 2.66, 'vibration': 2.42, 'current': 9.67} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 55, 'pressure': 1.69, 'vibration': 2.45, 'current': 13.52} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Reading: {'temperature': 79, 'pressure': 4.0, 'vibration': 0.4, 'current': 9.75} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 74, 'pressure': 3.92, 'vibration': 2.49, 'current': 10.37} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Reading: {'temperature': 89, 'pressure': 3.01, 'vibration': 4.32, 'current': 12.26} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP
+Reading: {'temperature': 65, 'pressure': 4.94, 'vibration': 4.6, 'current': 7.94} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 53, 'pressure': 4.92, 'vibration': 4.68, 'current': 8.65} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 58, 'pressure': 3.23, 'vibration': 2.59, 'current': 11.55} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 60, 'pressure': 1.62, 'vibration': 1.78, 'current': 12.44} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 57, 'pressure': 3.58, 'vibration': 3.76, 'current': 7.11} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 74, 'pressure': 4.0, 'vibration': 0.72, 'current': 6.31} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 64, 'pressure': 1.22, 'vibration': 4.21, 'current': 6.27} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 63, 'pressure': 3.49, 'vibration': 4.46, 'current': 11.21} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 54, 'pressure': 1.67, 'vibration': 4.32, 'current': 13.92} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 95, 'pressure': 4.13, 'vibration': 1.9, 'current': 6.07} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP |Recovery: <function self_recovery at 0x00000173342B80E0>
+Reading: {'temperature': 77, 'pressure': 4.29, 'vibration': 4.45, 'current': 14.08} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.95, 'vibration': 0.48, 'current': 5.07} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 1.86, 'vibration': 2.79, 'current': 8.83} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 82, 'pressure': 3.76, 'vibration': 2.83, 'current': 11.87} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 4.15, 'vibration': 0.12, 'current': 7.49} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 57, 'pressure': 3.47, 'vibration': 0.1, 'current': 13.69} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 2.68, 'vibration': 1.59, 'current': 12.11} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 3.41, 'vibration': 4.24, 'current': 5.47} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 91, 'pressure': 2.61, 'vibration': 0.54, 'current': 5.28} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 80, 'pressure': 2.81, 'vibration': 0.98, 'current': 8.9} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Machine: CNC Machine | Reading: {'temperature': 93, 'pressure': 4.85, 'vibration': 2.24, 'current': 10.9} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Machine: Conveyor Motor | Reading: {'temperature': 57, 'pressure': 1.78, 'vibration': 0.89, 'current': 5.38} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Hydraulic Press | Reading: {'temperature': 51, 'pressure': 1.42, 'vibration': 2.63, 'current': 10.83} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Air Compressor | Reading: {'temperature': 90, 'pressure': 3.18, 'vibration': 2.24, 'current': 6.04} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Machine: Industrial Pump | Reading: {'temperature': 88, 'pressure': 4.6, 'vibration': 0.72, 'current': 6.58} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Machine: CNC Machine | Reading: {'temperature': 64, 'pressure': 3.75, 'vibration': 2.65, 'current': 8.79} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Conveyor Motor | Reading: {'temperature': 82, 'pressure': 4.17, 'vibration': 4.76, 'current': 12.9} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Hydraulic Press | Reading: {'temperature': 64, 'pressure': 3.09, 'vibration': 4.45, 'current': 11.87} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Air Compressor | Reading: {'temperature': 75, 'pressure': 4.48, 'vibration': 0.2, 'current': 7.57} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE
+Machine: Industrial Pump | Reading: {'temperature': 54, 'pressure': 4.22, 'vibration': 2.57, 'current': 6.6} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE
+Machine: CNC Machine | Reading: {'temperature': 52, 'pressure': 4.3, 'vibration': 2.15, 'current': 13.49} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Machine: Conveyor Motor | Reading: {'temperature': 78, 'pressure': 2.75, 'vibration': 0.11, 'current': 11.08} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Hydraulic Press | Reading: {'temperature': 61, 'pressure': 3.96, 'vibration': 1.1, 'current': 8.92} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Air Compressor | Reading: {'temperature': 94, 'pressure': 4.7, 'vibration': 3.05, 'current': 7.02} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Machine: Industrial Pump | Reading: {'temperature': 89, 'pressure': 1.0, 'vibration': 2.32, 'current': 11.0} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Machine: CNC Machine | Reading: {'temperature': 62, 'pressure': 2.13, 'vibration': 2.97, 'current': 9.41} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Conveyor Motor | Reading: {'temperature': 70, 'pressure': 2.33, 'vibration': 4.28, 'current': 7.94} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Hydraulic Press | Reading: {'temperature': 70, 'pressure': 4.54, 'vibration': 4.38, 'current': 5.13} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Air Compressor | Reading: {'temperature': 66, 'pressure': 3.01, 'vibration': 3.74, 'current': 6.83} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Industrial Pump | Reading: {'temperature': 66, 'pressure': 3.22, 'vibration': 3.7, 'current': 7.34} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: CNC Machine | Reading: {'temperature': 65, 'pressure': 1.49, 'vibration': 4.36, 'current': 5.12} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Conveyor Motor | Reading: {'temperature': 73, 'pressure': 1.48, 'vibration': 1.39, 'current': 11.57} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Hydraulic Press | Reading: {'temperature': 66, 'pressure': 3.85, 'vibration': 3.2, 'current': 10.63} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Air Compressor | Reading: {'temperature': 61, 'pressure': 1.6, 'vibration': 4.94, 'current': 5.71} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Industrial Pump | Reading: {'temperature': 70, 'pressure': 4.45, 'vibration': 3.82, 'current': 14.09} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Machine: CNC Machine | Reading: {'temperature': 70, 'pressure': 2.09, 'vibration': 2.42, 'current': 5.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Conveyor Motor | Reading: {'temperature': 84, 'pressure': 2.12, 'vibration': 0.63, 'current': 10.86} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Machine: Hydraulic Press | Reading: {'temperature': 80, 'pressure': 3.18, 'vibration': 3.73, 'current': 14.42} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Machine: Air Compressor | Reading: {'temperature': 56, 'pressure': 2.67, 'vibration': 0.52, 'current': 8.52} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Industrial Pump | Reading: {'temperature': 53, 'pressure': 2.05, 'vibration': 4.16, 'current': 5.31} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: CNC Machine | Reading: {'temperature': 78, 'pressure': 1.64, 'vibration': 3.43, 'current': 11.46} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Conveyor Motor | Reading: {'temperature': 63, 'pressure': 3.11, 'vibration': 3.39, 'current': 7.71} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Hydraulic Press | Reading: {'temperature': 67, 'pressure': 1.01, 'vibration': 3.34, 'current': 10.53} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Air Compressor | Reading: {'temperature': 90, 'pressure': 4.31, 'vibration': 4.68, 'current': 8.87} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Industrial Pump | Reading: {'temperature': 56, 'pressure': 3.61, 'vibration': 2.42, 'current': 12.99} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: CNC Machine | Reading: {'temperature': 78, 'pressure': 1.87, 'vibration': 0.34, 'current': 12.61} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Conveyor Motor | Reading: {'temperature': 75, 'pressure': 1.51, 'vibration': 2.89, 'current': 5.92} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Hydraulic Press | Reading: {'temperature': 87, 'pressure': 3.12, 'vibration': 4.27, 'current': 10.72} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: Air Compressor | Reading: {'temperature': 95, 'pressure': 3.91, 'vibration': 3.39, 'current': 10.58} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Machine: Industrial Pump | Reading: {'temperature': 66, 'pressure': 2.69, 'vibration': 4.73, 'current': 10.55} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE
+Machine: CNC Machine | Reading: {'temperature': 91, 'pressure': 3.78, 'vibration': 1.95, 'current': 6.28} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Machine: Conveyor Motor | Reading: {'temperature': 91, 'pressure': 1.37, 'vibration': 4.18, 'current': 12.85} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP
+Machine: Hydraulic Press | Reading: {'temperature': 86, 'pressure': 2.68, 'vibration': 2.9, 'current': 7.71} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Machine: Air Compressor | Reading: {'temperature': 75, 'pressure': 3.73, 'vibration': 0.64, 'current': 9.06} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Industrial Pump | Reading: {'temperature': 81, 'pressure': 1.47, 'vibration': 3.15, 'current': 7.13} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE
+Machine: CNC Machine | Reading: {'temperature': 53, 'pressure': 1.09, 'vibration': 3.8, 'current': 13.18} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD
+Machine: Conveyor Motor | Reading: {'temperature': 61, 'pressure': 4.24, 'vibration': 2.66, 'current': 12.81} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE
+Machine: Hydraulic Press | Reading: {'temperature': 56, 'pressure': 1.71, 'vibration': 0.83, 'current': 5.58} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Air Compressor | Reading: {'temperature': 61, 'pressure': 3.78, 'vibration': 1.88, 'current': 10.82} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL
+Machine: Industrial Pump | Reading: {'temperature': 73, 'pressure': 4.5, 'vibration': 3.47, 'current': 11.39} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE
+Reading: {'temperature': 84, 'pressure': 2.8, 'vibration': 1.55, 'rpm': 2046, 'current': 8.5} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 2.03, 'vibration': 4.61, 'rpm': 2304, 'current': 12.59} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 80, 'pressure': 4.84, 'vibration': 3.16, 'rpm': 822, 'current': 12.38} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 4.13, 'vibration': 1.23, 'rpm': 1918, 'current': 13.99} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 1.02, 'vibration': 4.9, 'rpm': 1683, 'current': 6.19} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 66, 'pressure': 1.49, 'vibration': 1.9, 'rpm': 1358, 'current': 7.07} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 1.76, 'vibration': 2.68, 'rpm': 1449, 'current': 14.05} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 4.67, 'vibration': 2.85, 'rpm': 2510, 'current': 8.37} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 2.58, 'vibration': 2.49, 'rpm': 950, 'current': 10.61} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 1.42, 'vibration': 2.7, 'rpm': 2585, 'current': 9.06} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 3.51, 'vibration': 2.05, 'rpm': 2073, 'current': 9.23} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 3.35, 'vibration': 0.57, 'rpm': 2445, 'current': 11.79} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 2.68, 'vibration': 4.31, 'rpm': 2206, 'current': 9.16} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 75, 'pressure': 4.69, 'vibration': 1.55, 'rpm': 554, 'current': 9.43} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 3.35, 'vibration': 4.0, 'rpm': 2430, 'current': 6.74} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 2.27, 'vibration': 2.02, 'rpm': 1039, 'current': 8.43} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 3.37, 'vibration': 2.56, 'rpm': 2362, 'current': 11.06} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 1.31, 'vibration': 1.97, 'rpm': 2298, 'current': 7.33} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 1.06, 'vibration': 2.96, 'rpm': 554, 'current': 9.91} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 1.65, 'vibration': 3.87, 'rpm': 2803, 'current': 9.79} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 78, 'pressure': 3.98, 'vibration': 1.48, 'rpm': 2972, 'current': 6.53} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 3.41, 'vibration': 0.72, 'rpm': 2329, 'current': 13.44} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 2.23, 'vibration': 3.98, 'rpm': 2320, 'current': 8.48} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 1.97, 'vibration': 0.49, 'rpm': 678, 'current': 13.15} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 1.36, 'vibration': 0.74, 'rpm': 1335, 'current': 14.81} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 1.16, 'vibration': 0.84, 'rpm': 1809, 'current': 7.29} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 1.18, 'vibration': 4.02, 'rpm': 717, 'current': 5.65} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 3.81, 'vibration': 2.68, 'rpm': 577, 'current': 11.51} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 2.79, 'vibration': 1.11, 'rpm': 1385, 'current': 7.45} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 1.68, 'vibration': 1.61, 'rpm': 1365, 'current': 5.77} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 2.3, 'vibration': 0.61, 'rpm': 1598, 'current': 6.76} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 3.59, 'vibration': 2.77, 'rpm': 634, 'current': 11.92} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 2.38, 'vibration': 1.92, 'rpm': 1391, 'current': 14.71} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 82, 'pressure': 3.28, 'vibration': 3.24, 'rpm': 2402, 'current': 9.96} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 2.94, 'vibration': 2.08, 'rpm': 2357, 'current': 8.63} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 3.2, 'vibration': 2.69, 'rpm': 1946, 'current': 12.36} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 3.32, 'vibration': 2.89, 'rpm': 2086, 'current': 8.32} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 95, 'pressure': 3.95, 'vibration': 3.47, 'rpm': 1440, 'current': 11.15} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 2.17, 'vibration': 3.4, 'rpm': 1121, 'current': 6.89} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 2.44, 'vibration': 2.3, 'rpm': 1642, 'current': 8.33} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 1.63, 'vibration': 4.02, 'rpm': 887, 'current': 13.66} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 89, 'pressure': 3.1, 'vibration': 0.89, 'rpm': 1022, 'current': 8.18} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 2.21, 'vibration': 2.76, 'rpm': 942, 'current': 5.16} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 4.53, 'vibration': 0.84, 'rpm': 2510, 'current': 11.06} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 58, 'pressure': 1.46, 'vibration': 3.22, 'rpm': 2696, 'current': 12.49} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 4.44, 'vibration': 3.9, 'rpm': 1893, 'current': 5.8} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 2.9, 'vibration': 3.65, 'rpm': 1235, 'current': 14.9} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 1.43, 'vibration': 2.47, 'rpm': 2733, 'current': 6.56} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 57, 'pressure': 4.05, 'vibration': 1.84, 'rpm': 2957, 'current': 12.17} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 1.9, 'vibration': 2.23, 'rpm': 1126, 'current': 14.52} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 1.71, 'vibration': 2.85, 'rpm': 1857, 'current': 5.77} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 3.04, 'vibration': 1.98, 'rpm': 2710, 'current': 7.55} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 1.48, 'vibration': 3.88, 'rpm': 899, 'current': 13.75} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 1.38, 'vibration': 3.66, 'rpm': 790, 'current': 10.11} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 4.06, 'vibration': 0.22, 'rpm': 2810, 'current': 13.4} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 87, 'pressure': 1.35, 'vibration': 0.94, 'rpm': 1517, 'current': 6.55} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 4.86, 'vibration': 1.3, 'rpm': 2970, 'current': 14.78} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 2.79, 'vibration': 4.68, 'rpm': 2946, 'current': 6.25} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 75, 'pressure': 4.65, 'vibration': 4.38, 'rpm': 2255, 'current': 13.56} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 1.76, 'vibration': 2.08, 'rpm': 2178, 'current': 12.08} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 1.4, 'vibration': 0.48, 'rpm': 2228, 'current': 12.43} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 1.97, 'vibration': 3.82, 'rpm': 1046, 'current': 5.2} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 3.06, 'vibration': 2.2, 'rpm': 685, 'current': 5.76} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 3.62, 'vibration': 3.69, 'rpm': 894, 'current': 11.13} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 1.02, 'vibration': 3.68, 'rpm': 2668, 'current': 5.04} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 4.53, 'vibration': 3.52, 'rpm': 1658, 'current': 10.3} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 1.07, 'vibration': 1.23, 'rpm': 895, 'current': 10.22} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 3.81, 'vibration': 4.13, 'rpm': 1694, 'current': 7.64} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 73, 'pressure': 3.96, 'vibration': 0.78, 'rpm': 2327, 'current': 9.79} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 3.49, 'vibration': 4.92, 'rpm': 1360, 'current': 13.69} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 3.11, 'vibration': 0.7, 'rpm': 679, 'current': 10.06} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 2.08, 'vibration': 2.25, 'rpm': 2461, 'current': 10.57} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 4.78, 'vibration': 4.56, 'rpm': 2570, 'current': 11.83} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 79, 'pressure': 2.49, 'vibration': 2.5, 'rpm': 1501, 'current': 14.35} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 2.4, 'vibration': 4.29, 'rpm': 2564, 'current': 10.64} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 53, 'pressure': 4.69, 'vibration': 1.74, 'rpm': 2798, 'current': 14.91} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 4.66, 'vibration': 2.85, 'rpm': 1844, 'current': 6.39} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 3.57, 'vibration': 2.13, 'rpm': 805, 'current': 5.56} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 1.33, 'vibration': 4.19, 'rpm': 2713, 'current': 11.97} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 72, 'pressure': 4.63, 'vibration': 4.62, 'rpm': 2183, 'current': 7.01} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 71, 'pressure': 1.97, 'vibration': 2.22, 'rpm': 1728, 'current': 9.77} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 4.76, 'vibration': 0.47, 'rpm': 1210, 'current': 10.4} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 2.03, 'vibration': 3.43, 'rpm': 1344, 'current': 7.7} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 1.82, 'vibration': 1.05, 'rpm': 1332, 'current': 7.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 2.47, 'vibration': 3.79, 'rpm': 1759, 'current': 6.22} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 4.62, 'vibration': 1.89, 'rpm': 834, 'current': 7.65} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 75, 'pressure': 3.25, 'vibration': 0.52, 'rpm': 2438, 'current': 6.78} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 2.68, 'vibration': 1.84, 'rpm': 1426, 'current': 5.99} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 3.22, 'vibration': 1.36, 'rpm': 831, 'current': 10.48} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.84, 'vibration': 3.08, 'rpm': 2607, 'current': 13.98} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 4.47, 'vibration': 0.82, 'rpm': 2054, 'current': 11.6} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 70, 'pressure': 1.82, 'vibration': 0.41, 'rpm': 2002, 'current': 14.43} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 2.99, 'vibration': 3.73, 'rpm': 841, 'current': 11.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 2.94, 'vibration': 1.76, 'rpm': 2186, 'current': 10.8} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 4.21, 'vibration': 1.02, 'rpm': 561, 'current': 14.61} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 2.27, 'vibration': 2.48, 'rpm': 1144, 'current': 8.28} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 3.26, 'vibration': 4.15, 'rpm': 1000, 'current': 13.56} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 1.55, 'vibration': 1.52, 'rpm': 1968, 'current': 11.06} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 4.92, 'vibration': 2.35, 'rpm': 1269, 'current': 11.09} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 50, 'pressure': 1.82, 'vibration': 2.23, 'rpm': 2200, 'current': 12.25} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 4.38, 'vibration': 2.59, 'rpm': 681, 'current': 12.01} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 54, 'pressure': 1.62, 'vibration': 0.16, 'rpm': 2671, 'current': 10.16} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 2.97, 'vibration': 4.54, 'rpm': 1134, 'current': 13.88} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.04, 'vibration': 2.63, 'rpm': 982, 'current': 11.28} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 3.94, 'vibration': 2.2, 'rpm': 1201, 'current': 12.36} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 3.14, 'vibration': 2.18, 'rpm': 2089, 'current': 14.05} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 4.15, 'vibration': 2.89, 'rpm': 951, 'current': 6.45} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 91, 'pressure': 3.35, 'vibration': 1.75, 'rpm': 1225, 'current': 5.65} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 53, 'pressure': 4.02, 'vibration': 3.06, 'rpm': 677, 'current': 10.04} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 3.61, 'vibration': 3.54, 'rpm': 1696, 'current': 13.48} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 2.3, 'vibration': 1.1, 'rpm': 668, 'current': 9.01} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 2.46, 'vibration': 0.91, 'rpm': 1451, 'current': 12.45} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 2.1, 'vibration': 1.55, 'rpm': 1490, 'current': 8.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 2.6, 'vibration': 1.56, 'rpm': 1277, 'current': 13.05} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 1.89, 'vibration': 3.89, 'rpm': 2806, 'current': 5.5} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 70, 'pressure': 4.51, 'vibration': 2.49, 'rpm': 1425, 'current': 13.55} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 4.9, 'vibration': 3.5, 'rpm': 2801, 'current': 7.03} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 2.85, 'vibration': 0.95, 'rpm': 2469, 'current': 5.49} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 3.37, 'vibration': 1.52, 'rpm': 2331, 'current': 5.42} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 1.99, 'vibration': 4.14, 'rpm': 2229, 'current': 13.2} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 1.78, 'vibration': 1.89, 'rpm': 2534, 'current': 14.4} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 3.89, 'vibration': 3.38, 'rpm': 1854, 'current': 10.37} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 3.3, 'vibration': 2.92, 'rpm': 1850, 'current': 8.67} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 4.11, 'vibration': 2.37, 'rpm': 1763, 'current': 5.51} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 4.1, 'vibration': 1.32, 'rpm': 2366, 'current': 7.1} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 1.76, 'vibration': 0.32, 'rpm': 696, 'current': 13.08} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 4.88, 'vibration': 2.61, 'rpm': 1910, 'current': 8.92} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 4.3, 'vibration': 1.05, 'rpm': 1256, 'current': 12.92} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 1.05, 'vibration': 2.72, 'rpm': 2388, 'current': 9.35} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 4.91, 'vibration': 0.59, 'rpm': 866, 'current': 5.45} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 1.09, 'vibration': 3.06, 'rpm': 2560, 'current': 5.75} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 1.87, 'vibration': 0.88, 'rpm': 1315, 'current': 5.15} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 3.07, 'vibration': 2.44, 'rpm': 1645, 'current': 6.29} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 3.14, 'vibration': 1.83, 'rpm': 911, 'current': 14.56} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 62, 'pressure': 1.33, 'vibration': 4.48, 'rpm': 2155, 'current': 8.55} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 89, 'pressure': 2.95, 'vibration': 2.64, 'rpm': 1446, 'current': 6.93} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 2.13, 'vibration': 3.27, 'rpm': 2465, 'current': 11.36} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 94, 'pressure': 4.51, 'vibration': 2.06, 'rpm': 2987, 'current': 7.94} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 92, 'pressure': 1.29, 'vibration': 2.17, 'rpm': 2864, 'current': 8.15} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 4.53, 'vibration': 2.66, 'rpm': 1642, 'current': 10.32} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 57, 'pressure': 3.63, 'vibration': 2.24, 'rpm': 1176, 'current': 13.74} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 1.61, 'vibration': 1.39, 'rpm': 2257, 'current': 9.41} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 3.45, 'vibration': 2.78, 'rpm': 1456, 'current': 8.93} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 2.17, 'vibration': 4.11, 'rpm': 534, 'current': 12.69} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 95, 'pressure': 2.6, 'vibration': 1.24, 'rpm': 1556, 'current': 10.77} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 3.89, 'vibration': 2.43, 'rpm': 2924, 'current': 9.37} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 2.52, 'vibration': 2.4, 'rpm': 962, 'current': 13.21} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 1.96, 'vibration': 0.21, 'rpm': 2543, 'current': 12.64} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 1.55, 'vibration': 3.25, 'rpm': 2399, 'current': 9.39} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 2.69, 'vibration': 4.35, 'rpm': 1839, 'current': 11.02} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 59, 'pressure': 4.26, 'vibration': 2.08, 'rpm': 547, 'current': 14.94} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 2.76, 'vibration': 4.8, 'rpm': 1405, 'current': 13.11} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 4.15, 'vibration': 4.36, 'rpm': 1294, 'current': 13.51} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 3.78, 'vibration': 2.11, 'rpm': 1959, 'current': 5.4} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 2.28, 'vibration': 3.97, 'rpm': 2077, 'current': 9.99} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 4.23, 'vibration': 3.54, 'rpm': 2724, 'current': 13.18} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 1.0, 'vibration': 3.41, 'rpm': 818, 'current': 12.5} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 4.48, 'vibration': 4.81, 'rpm': 2037, 'current': 13.05} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 90, 'pressure': 2.55, 'vibration': 0.15, 'rpm': 2444, 'current': 6.32} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 4.63, 'vibration': 4.78, 'rpm': 2159, 'current': 14.16} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 2.73, 'vibration': 4.05, 'rpm': 2140, 'current': 11.19} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 91, 'pressure': 2.82, 'vibration': 0.83, 'rpm': 2166, 'current': 7.57} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 51, 'pressure': 2.68, 'vibration': 3.23, 'rpm': 2452, 'current': 8.29} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 3.62, 'vibration': 4.09, 'rpm': 1581, 'current': 11.51} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 68, 'pressure': 1.7, 'vibration': 4.77, 'rpm': 851, 'current': 12.88} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 65, 'pressure': 3.71, 'vibration': 3.6, 'rpm': 763, 'current': 12.54} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 1.7, 'vibration': 2.05, 'rpm': 2396, 'current': 11.42} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 4.4, 'vibration': 0.74, 'rpm': 1184, 'current': 7.79} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 3.42, 'vibration': 0.47, 'rpm': 1659, 'current': 10.01} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 57, 'pressure': 1.72, 'vibration': 4.06, 'rpm': 1346, 'current': 13.78} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 1.92, 'vibration': 4.63, 'rpm': 775, 'current': 10.28} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 53, 'pressure': 3.45, 'vibration': 2.22, 'rpm': 1265, 'current': 13.2} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 3.4, 'vibration': 3.08, 'rpm': 2202, 'current': 11.83} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 1.39, 'vibration': 4.05, 'rpm': 1715, 'current': 13.87} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 1.02, 'vibration': 1.26, 'rpm': 1457, 'current': 6.1} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 1.81, 'vibration': 2.7, 'rpm': 809, 'current': 12.36} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 4.87, 'vibration': 1.32, 'rpm': 2038, 'current': 8.7} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 3.28, 'vibration': 3.96, 'rpm': 1125, 'current': 10.35} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 2.08, 'vibration': 4.62, 'rpm': 2221, 'current': 10.89} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 67, 'pressure': 4.67, 'vibration': 4.98, 'rpm': 1148, 'current': 12.9} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 89, 'pressure': 1.93, 'vibration': 2.57, 'rpm': 637, 'current': 12.3} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 4.35, 'vibration': 2.0, 'rpm': 1309, 'current': 10.81} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 53, 'pressure': 3.43, 'vibration': 0.18, 'rpm': 2314, 'current': 6.13} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 91, 'pressure': 3.56, 'vibration': 2.2, 'rpm': 2235, 'current': 13.1} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 55, 'pressure': 1.66, 'vibration': 2.28, 'rpm': 1056, 'current': 8.46} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 2.16, 'vibration': 2.36, 'rpm': 887, 'current': 8.57} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 4.5, 'vibration': 2.9, 'rpm': 1231, 'current': 10.43} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 62, 'pressure': 2.41, 'vibration': 3.4, 'rpm': 2663, 'current': 14.88} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 3.13, 'vibration': 1.36, 'rpm': 2323, 'current': 10.09} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 1.87, 'vibration': 1.18, 'rpm': 2776, 'current': 8.36} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 3.4, 'vibration': 2.92, 'rpm': 1852, 'current': 13.62} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 3.15, 'vibration': 4.22, 'rpm': 831, 'current': 5.33} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 88, 'pressure': 4.42, 'vibration': 0.56, 'rpm': 1785, 'current': 6.36} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 76, 'pressure': 4.69, 'vibration': 4.25, 'rpm': 2016, 'current': 13.5} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 1.23, 'vibration': 3.7, 'rpm': 1922, 'current': 9.74} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 2.02, 'vibration': 1.94, 'rpm': 1690, 'current': 13.46} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 79, 'pressure': 3.92, 'vibration': 1.56, 'rpm': 2832, 'current': 11.3} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 2.79, 'vibration': 4.87, 'rpm': 2286, 'current': 8.83} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 59, 'pressure': 4.99, 'vibration': 0.11, 'rpm': 836, 'current': 11.3} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 1.45, 'vibration': 1.79, 'rpm': 1140, 'current': 11.78} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 3.24, 'vibration': 0.12, 'rpm': 1037, 'current': 7.7} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 3.02, 'vibration': 2.4, 'rpm': 2484, 'current': 7.69} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 3.94, 'vibration': 0.48, 'rpm': 1243, 'current': 11.32} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 53, 'pressure': 1.12, 'vibration': 0.9, 'rpm': 1801, 'current': 7.9} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 2.92, 'vibration': 1.12, 'rpm': 1763, 'current': 12.73} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 3.35, 'vibration': 3.48, 'rpm': 1445, 'current': 12.52} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 2.3, 'vibration': 0.67, 'rpm': 2481, 'current': 12.5} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 3.64, 'vibration': 4.34, 'rpm': 1711, 'current': 10.8} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 72, 'pressure': 1.3, 'vibration': 2.85, 'rpm': 1124, 'current': 14.34} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 4.46, 'vibration': 1.91, 'rpm': 1853, 'current': 10.25} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 1.99, 'vibration': 4.27, 'rpm': 1614, 'current': 10.48} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 89, 'pressure': 3.73, 'vibration': 4.34, 'rpm': 1628, 'current': 10.84} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 66, 'pressure': 3.85, 'vibration': 2.42, 'rpm': 858, 'current': 9.63} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 4.18, 'vibration': 4.97, 'rpm': 2723, 'current': 14.69} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 67, 'pressure': 4.2, 'vibration': 4.32, 'rpm': 1744, 'current': 6.73} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 79, 'pressure': 4.6, 'vibration': 0.78, 'rpm': 872, 'current': 14.67} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 4.78, 'vibration': 1.0, 'rpm': 1795, 'current': 9.1} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 52, 'pressure': 1.41, 'vibration': 4.07, 'rpm': 2561, 'current': 13.1} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 2.16, 'vibration': 3.04, 'rpm': 685, 'current': 10.56} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 91, 'pressure': 1.51, 'vibration': 2.63, 'rpm': 2050, 'current': 7.54} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 86, 'pressure': 4.63, 'vibration': 1.16, 'rpm': 1145, 'current': 14.67} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 4.43, 'vibration': 4.74, 'rpm': 1943, 'current': 11.52} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 81, 'pressure': 1.97, 'vibration': 3.83, 'rpm': 2812, 'current': 12.58} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 1.01, 'vibration': 2.69, 'rpm': 2718, 'current': 14.76} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 3.14, 'vibration': 0.21, 'rpm': 2083, 'current': 12.83} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 3.58, 'vibration': 0.67, 'rpm': 750, 'current': 5.04} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 1.08, 'vibration': 3.93, 'rpm': 2024, 'current': 11.49} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 4.92, 'vibration': 1.69, 'rpm': 1491, 'current': 7.09} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 79, 'pressure': 2.23, 'vibration': 1.79, 'rpm': 607, 'current': 6.34} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 3.21, 'vibration': 4.2, 'rpm': 2236, 'current': 12.9} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 68, 'pressure': 3.94, 'vibration': 1.77, 'rpm': 1779, 'current': 7.03} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 3.12, 'vibration': 3.66, 'rpm': 1083, 'current': 8.32} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 2.18, 'vibration': 2.68, 'rpm': 1919, 'current': 12.7} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 1.46, 'vibration': 4.0, 'rpm': 1191, 'current': 6.93} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 87, 'pressure': 3.88, 'vibration': 1.91, 'rpm': 893, 'current': 7.85} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 3.71, 'vibration': 2.81, 'rpm': 2985, 'current': 12.48} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 2.06, 'vibration': 2.87, 'rpm': 1872, 'current': 14.64} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 55, 'pressure': 3.81, 'vibration': 2.39, 'rpm': 873, 'current': 6.62} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 3.22, 'vibration': 3.67, 'rpm': 1092, 'current': 10.85} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 91, 'pressure': 1.68, 'vibration': 2.52, 'rpm': 1166, 'current': 7.95} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 73, 'pressure': 1.41, 'vibration': 1.75, 'rpm': 1101, 'current': 11.68} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 4.69, 'vibration': 3.2, 'rpm': 2609, 'current': 8.93} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 55, 'pressure': 3.78, 'vibration': 3.58, 'rpm': 2076, 'current': 7.32} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 3.31, 'vibration': 3.48, 'rpm': 2281, 'current': 10.42} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 2.82, 'vibration': 2.47, 'rpm': 2817, 'current': 10.89} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 1.41, 'vibration': 3.73, 'rpm': 990, 'current': 7.09} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 3.57, 'vibration': 0.18, 'rpm': 2166, 'current': 13.46} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 67, 'pressure': 4.45, 'vibration': 3.68, 'rpm': 1170, 'current': 7.12} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 4.1, 'vibration': 2.16, 'rpm': 2831, 'current': 10.38} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 4.56, 'vibration': 0.45, 'rpm': 731, 'current': 14.45} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 2.2, 'vibration': 2.89, 'rpm': 664, 'current': 13.47} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 4.16, 'vibration': 2.32, 'rpm': 1061, 'current': 5.42} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 1.68, 'vibration': 4.48, 'rpm': 2612, 'current': 10.16} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 67, 'pressure': 4.83, 'vibration': 1.03, 'rpm': 1158, 'current': 9.23} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 3.19, 'vibration': 0.91, 'rpm': 1840, 'current': 14.98} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 2.2, 'vibration': 3.45, 'rpm': 745, 'current': 8.25} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 1.16, 'vibration': 3.2, 'rpm': 602, 'current': 8.7} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 3.67, 'vibration': 3.66, 'rpm': 1211, 'current': 11.29} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 3.56, 'vibration': 1.52, 'rpm': 1944, 'current': 13.67} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 3.08, 'vibration': 4.18, 'rpm': 2946, 'current': 12.94} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 58, 'pressure': 3.71, 'vibration': 1.01, 'rpm': 1131, 'current': 13.24} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 3.59, 'vibration': 2.48, 'rpm': 2415, 'current': 14.65} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 1.57, 'vibration': 1.81, 'rpm': 2732, 'current': 12.64} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 1.87, 'vibration': 4.42, 'rpm': 564, 'current': 6.83} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 94, 'pressure': 4.28, 'vibration': 4.22, 'rpm': 2215, 'current': 14.96} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 4.54, 'vibration': 1.91, 'rpm': 1482, 'current': 6.43} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 93, 'pressure': 1.15, 'vibration': 2.31, 'rpm': 1703, 'current': 11.51} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 3.46, 'vibration': 3.33, 'rpm': 2217, 'current': 14.99} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 2.6, 'vibration': 3.29, 'rpm': 529, 'current': 6.42} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 1.78, 'vibration': 1.67, 'rpm': 1570, 'current': 8.04} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 3.18, 'vibration': 2.94, 'rpm': 1271, 'current': 10.99} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 4.27, 'vibration': 3.15, 'rpm': 2897, 'current': 9.11} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 3.83, 'vibration': 1.0, 'rpm': 944, 'current': 8.88} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 4.8, 'vibration': 0.55, 'rpm': 1697, 'current': 9.35} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 1.44, 'vibration': 1.4, 'rpm': 758, 'current': 9.2} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 1.55, 'vibration': 3.83, 'rpm': 1591, 'current': 8.82} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 4.39, 'vibration': 2.06, 'rpm': 1988, 'current': 11.6} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 1.58, 'vibration': 1.45, 'rpm': 1366, 'current': 14.63} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 1.09, 'vibration': 4.83, 'rpm': 1096, 'current': 8.89} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 80, 'pressure': 1.85, 'vibration': 3.06, 'rpm': 2069, 'current': 7.98} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 3.15, 'vibration': 0.8, 'rpm': 2934, 'current': 10.08} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 3.37, 'vibration': 3.16, 'rpm': 2557, 'current': 8.73} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 4.01, 'vibration': 4.61, 'rpm': 2162, 'current': 13.68} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 1.85, 'vibration': 1.9, 'rpm': 926, 'current': 14.26} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 1.33, 'vibration': 1.45, 'rpm': 744, 'current': 11.49} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 55, 'pressure': 2.24, 'vibration': 3.64, 'rpm': 2565, 'current': 12.92} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 4.4, 'vibration': 1.66, 'rpm': 2927, 'current': 7.09} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 2.88, 'vibration': 4.02, 'rpm': 1002, 'current': 9.82} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 63, 'pressure': 4.4, 'vibration': 1.63, 'rpm': 2987, 'current': 12.28} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 2.85, 'vibration': 3.26, 'rpm': 2418, 'current': 10.73} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 2.14, 'vibration': 0.53, 'rpm': 1038, 'current': 13.62} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 2.48, 'vibration': 2.95, 'rpm': 1208, 'current': 12.62} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 1.63, 'vibration': 0.54, 'rpm': 1365, 'current': 5.45} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 3.98, 'vibration': 1.57, 'rpm': 1024, 'current': 12.19} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.7, 'vibration': 1.96, 'rpm': 1049, 'current': 7.15} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 4.06, 'vibration': 1.38, 'rpm': 987, 'current': 13.64} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 77, 'pressure': 3.15, 'vibration': 1.9, 'rpm': 815, 'current': 5.4} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 4.89, 'vibration': 1.79, 'rpm': 838, 'current': 7.21} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 66, 'pressure': 3.92, 'vibration': 2.16, 'rpm': 1037, 'current': 14.42} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 1.54, 'vibration': 2.98, 'rpm': 2963, 'current': 8.09} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 3.23, 'vibration': 1.45, 'rpm': 2558, 'current': 9.44} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 4.87, 'vibration': 1.87, 'rpm': 1792, 'current': 10.48} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.29, 'vibration': 3.85, 'rpm': 1921, 'current': 8.15} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 4.29, 'vibration': 0.94, 'rpm': 581, 'current': 11.64} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 3.67, 'vibration': 4.87, 'rpm': 1699, 'current': 5.41} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 76, 'pressure': 1.61, 'vibration': 0.94, 'rpm': 2334, 'current': 8.67} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 2.05, 'vibration': 2.22, 'rpm': 1059, 'current': 5.4} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 1.18, 'vibration': 2.9, 'rpm': 1395, 'current': 5.32} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 3.97, 'vibration': 2.8, 'rpm': 1297, 'current': 6.91} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 1.53, 'vibration': 0.57, 'rpm': 1432, 'current': 14.83} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 1.9, 'vibration': 1.33, 'rpm': 1260, 'current': 8.72} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 93, 'pressure': 1.4, 'vibration': 3.03, 'rpm': 1244, 'current': 11.16} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 2.81, 'vibration': 4.49, 'rpm': 2766, 'current': 13.67} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 64, 'pressure': 4.35, 'vibration': 1.76, 'rpm': 640, 'current': 12.35} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 1.25, 'vibration': 4.49, 'rpm': 2527, 'current': 13.15} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 92, 'pressure': 4.11, 'vibration': 1.43, 'rpm': 1645, 'current': 13.73} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 76, 'pressure': 2.67, 'vibration': 0.83, 'rpm': 1387, 'current': 12.53} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 3.36, 'vibration': 4.17, 'rpm': 577, 'current': 7.62} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 82, 'pressure': 2.76, 'vibration': 0.95, 'rpm': 2394, 'current': 8.11} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 1.21, 'vibration': 4.82, 'rpm': 1462, 'current': 8.13} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 1.81, 'vibration': 4.9, 'rpm': 2691, 'current': 8.55} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 85, 'pressure': 4.07, 'vibration': 3.67, 'rpm': 886, 'current': 7.19} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 53, 'pressure': 4.76, 'vibration': 3.22, 'rpm': 2554, 'current': 14.79} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 1.29, 'vibration': 4.87, 'rpm': 2416, 'current': 14.32} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 2.75, 'vibration': 1.21, 'rpm': 1201, 'current': 12.9} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 57, 'pressure': 3.41, 'vibration': 3.63, 'rpm': 641, 'current': 5.36} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 1.97, 'vibration': 2.51, 'rpm': 2092, 'current': 5.9} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 1.93, 'vibration': 0.1, 'rpm': 2016, 'current': 6.02} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 3.68, 'vibration': 2.79, 'rpm': 1582, 'current': 9.2} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 2.91, 'vibration': 1.7, 'rpm': 2558, 'current': 12.77} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 1.78, 'vibration': 4.59, 'rpm': 1392, 'current': 13.3} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 67, 'pressure': 1.02, 'vibration': 1.27, 'rpm': 2737, 'current': 10.98} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 4.57, 'vibration': 2.13, 'rpm': 1899, 'current': 14.99} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 94, 'pressure': 2.22, 'vibration': 1.89, 'rpm': 1558, 'current': 8.97} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 82, 'pressure': 3.55, 'vibration': 0.22, 'rpm': 2327, 'current': 6.85} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 4.13, 'vibration': 2.31, 'rpm': 1234, 'current': 12.97} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 3.51, 'vibration': 0.13, 'rpm': 2997, 'current': 13.15} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 2.35, 'vibration': 4.46, 'rpm': 1948, 'current': 11.5} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 74, 'pressure': 4.18, 'vibration': 2.91, 'rpm': 817, 'current': 7.83} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 3.45, 'vibration': 0.69, 'rpm': 1165, 'current': 12.43} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 4.38, 'vibration': 1.37, 'rpm': 2671, 'current': 8.07} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 56, 'pressure': 2.55, 'vibration': 0.4, 'rpm': 1609, 'current': 13.82} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 1.66, 'vibration': 1.4, 'rpm': 2024, 'current': 7.1} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 2.15, 'vibration': 2.39, 'rpm': 2295, 'current': 9.8} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 1.12, 'vibration': 2.68, 'rpm': 1988, 'current': 8.78} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 2.72, 'vibration': 1.65, 'rpm': 1498, 'current': 7.79} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 1.63, 'vibration': 3.82, 'rpm': 999, 'current': 11.36} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 4.78, 'vibration': 2.61, 'rpm': 1416, 'current': 12.46} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 4.2, 'vibration': 3.58, 'rpm': 1543, 'current': 12.21} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 2.64, 'vibration': 3.51, 'rpm': 507, 'current': 6.74} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 1.94, 'vibration': 3.94, 'rpm': 956, 'current': 7.15} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 3.47, 'vibration': 0.69, 'rpm': 1793, 'current': 14.91} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 4.3, 'vibration': 3.2, 'rpm': 1683, 'current': 8.97} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 1.02, 'vibration': 4.75, 'rpm': 1919, 'current': 14.24} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.72, 'vibration': 2.09, 'rpm': 1402, 'current': 8.73} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 4.24, 'vibration': 4.16, 'rpm': 1621, 'current': 14.77} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 66, 'pressure': 1.51, 'vibration': 4.41, 'rpm': 2699, 'current': 8.14} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 74, 'pressure': 1.67, 'vibration': 4.56, 'rpm': 2371, 'current': 13.93} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 1.91, 'vibration': 3.28, 'rpm': 2630, 'current': 9.45} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 3.98, 'vibration': 2.71, 'rpm': 1734, 'current': 13.61} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 64, 'pressure': 4.26, 'vibration': 1.05, 'rpm': 1665, 'current': 12.77} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 3.59, 'vibration': 2.04, 'rpm': 1087, 'current': 10.26} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 4.73, 'vibration': 2.7, 'rpm': 751, 'current': 12.52} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 1.55, 'vibration': 0.24, 'rpm': 2352, 'current': 13.85} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 2.29, 'vibration': 2.15, 'rpm': 1380, 'current': 10.06} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 3.22, 'vibration': 4.99, 'rpm': 2945, 'current': 10.74} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 86, 'pressure': 1.08, 'vibration': 0.59, 'rpm': 695, 'current': 9.57} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 2.65, 'vibration': 0.74, 'rpm': 1281, 'current': 11.26} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 92, 'pressure': 4.51, 'vibration': 4.18, 'rpm': 1227, 'current': 11.03} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 86, 'pressure': 4.97, 'vibration': 4.87, 'rpm': 2690, 'current': 11.6} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 89, 'pressure': 4.63, 'vibration': 4.83, 'rpm': 520, 'current': 13.91} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 63, 'pressure': 4.48, 'vibration': 4.51, 'rpm': 2828, 'current': 8.08} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 85, 'pressure': 4.35, 'vibration': 0.41, 'rpm': 1496, 'current': 13.52} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 71, 'pressure': 4.64, 'vibration': 3.12, 'rpm': 2531, 'current': 10.93} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 3.13, 'vibration': 0.67, 'rpm': 1750, 'current': 14.79} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 3.67, 'vibration': 1.15, 'rpm': 1926, 'current': 9.82} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 3.41, 'vibration': 4.54, 'rpm': 1720, 'current': 7.16} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 76, 'pressure': 3.62, 'vibration': 3.57, 'rpm': 1001, 'current': 11.32} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 4.6, 'vibration': 3.95, 'rpm': 1454, 'current': 13.38} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 4.17, 'vibration': 4.17, 'rpm': 1562, 'current': 11.71} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 95, 'pressure': 1.51, 'vibration': 0.8, 'rpm': 2961, 'current': 9.36} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 58, 'pressure': 2.17, 'vibration': 1.43, 'rpm': 2736, 'current': 14.24} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 1.02, 'vibration': 0.83, 'rpm': 1470, 'current': 6.16} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 4.94, 'vibration': 0.44, 'rpm': 2164, 'current': 9.68} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 4.09, 'vibration': 0.55, 'rpm': 1812, 'current': 5.64} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 4.58, 'vibration': 0.18, 'rpm': 676, 'current': 9.73} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 3.76, 'vibration': 2.91, 'rpm': 1756, 'current': 7.48} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 1.16, 'vibration': 2.17, 'rpm': 2603, 'current': 8.13} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 4.82, 'vibration': 4.42, 'rpm': 2526, 'current': 11.77} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 90, 'pressure': 2.56, 'vibration': 3.93, 'rpm': 2719, 'current': 11.69} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 57, 'pressure': 1.88, 'vibration': 2.89, 'rpm': 2576, 'current': 10.6} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 3.53, 'vibration': 0.18, 'rpm': 2219, 'current': 10.16} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 2.99, 'vibration': 0.71, 'rpm': 2055, 'current': 9.47} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 3.16, 'vibration': 2.51, 'rpm': 985, 'current': 7.13} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 4.38, 'vibration': 0.73, 'rpm': 2807, 'current': 13.97} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 1.27, 'vibration': 2.58, 'rpm': 622, 'current': 12.25} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 4.89, 'vibration': 2.56, 'rpm': 2096, 'current': 13.85} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 2.66, 'vibration': 4.08, 'rpm': 636, 'current': 8.88} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 89, 'pressure': 4.56, 'vibration': 0.9, 'rpm': 1237, 'current': 9.72} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 76, 'pressure': 3.13, 'vibration': 1.84, 'rpm': 2389, 'current': 8.79} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 1.88, 'vibration': 0.57, 'rpm': 2797, 'current': 14.04} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 1.25, 'vibration': 2.14, 'rpm': 2629, 'current': 10.95} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 3.85, 'vibration': 4.69, 'rpm': 1728, 'current': 5.24} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 92, 'pressure': 4.27, 'vibration': 0.79, 'rpm': 2029, 'current': 12.4} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 85, 'pressure': 1.24, 'vibration': 1.72, 'rpm': 2896, 'current': 13.99} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 3.73, 'vibration': 1.81, 'rpm': 677, 'current': 9.52} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 4.21, 'vibration': 4.26, 'rpm': 1458, 'current': 12.63} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 2.93, 'vibration': 2.95, 'rpm': 1360, 'current': 13.73} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 4.8, 'vibration': 3.34, 'rpm': 1670, 'current': 10.07} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 2.64, 'vibration': 3.15, 'rpm': 2635, 'current': 8.54} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 2.49, 'vibration': 3.15, 'rpm': 1876, 'current': 5.07} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 4.48, 'vibration': 4.12, 'rpm': 1101, 'current': 8.23} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 68, 'pressure': 1.68, 'vibration': 2.58, 'rpm': 2288, 'current': 14.02} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 3.8, 'vibration': 3.96, 'rpm': 1012, 'current': 8.82} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 2.54, 'vibration': 3.58, 'rpm': 1197, 'current': 5.64} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 2.03, 'vibration': 3.7, 'rpm': 854, 'current': 10.47} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 50, 'pressure': 1.85, 'vibration': 2.3, 'rpm': 1008, 'current': 6.72} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 3.96, 'vibration': 1.17, 'rpm': 886, 'current': 11.97} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 1.53, 'vibration': 0.57, 'rpm': 1190, 'current': 5.69} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 1.76, 'vibration': 4.41, 'rpm': 2846, 'current': 10.64} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 52, 'pressure': 1.84, 'vibration': 1.39, 'rpm': 1222, 'current': 7.36} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 3.9, 'vibration': 1.91, 'rpm': 2803, 'current': 8.58} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 1.29, 'vibration': 1.01, 'rpm': 637, 'current': 6.44} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 1.89, 'vibration': 0.42, 'rpm': 1477, 'current': 5.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 3.98, 'vibration': 4.31, 'rpm': 767, 'current': 8.2} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 76, 'pressure': 4.44, 'vibration': 3.57, 'rpm': 2746, 'current': 11.56} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 1.86, 'vibration': 1.54, 'rpm': 2812, 'current': 7.68} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 4.98, 'vibration': 4.08, 'rpm': 1060, 'current': 5.65} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 56, 'pressure': 2.06, 'vibration': 1.55, 'rpm': 2012, 'current': 10.66} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 3.65, 'vibration': 1.09, 'rpm': 705, 'current': 8.36} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 3.72, 'vibration': 4.48, 'rpm': 1865, 'current': 12.36} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 67, 'pressure': 2.33, 'vibration': 3.57, 'rpm': 558, 'current': 6.71} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 3.6, 'vibration': 0.36, 'rpm': 2540, 'current': 10.91} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 3.07, 'vibration': 2.79, 'rpm': 2354, 'current': 9.77} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 3.56, 'vibration': 2.21, 'rpm': 2356, 'current': 9.32} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 3.94, 'vibration': 4.36, 'rpm': 779, 'current': 5.02} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 56, 'pressure': 2.67, 'vibration': 4.16, 'rpm': 2878, 'current': 9.91} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 4.11, 'vibration': 4.89, 'rpm': 2109, 'current': 8.42} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 68, 'pressure': 3.94, 'vibration': 1.28, 'rpm': 2504, 'current': 11.88} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 2.64, 'vibration': 3.3, 'rpm': 1768, 'current': 5.32} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 1.38, 'vibration': 4.36, 'rpm': 673, 'current': 5.32} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 95, 'pressure': 2.66, 'vibration': 0.4, 'rpm': 636, 'current': 6.11} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 61, 'pressure': 3.46, 'vibration': 3.5, 'rpm': 2490, 'current': 9.26} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 1.1, 'vibration': 2.74, 'rpm': 2846, 'current': 6.04} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 1.54, 'vibration': 1.73, 'rpm': 2245, 'current': 13.45} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 2.74, 'vibration': 2.34, 'rpm': 2239, 'current': 14.11} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 1.45, 'vibration': 0.37, 'rpm': 1693, 'current': 11.72} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 5.0, 'vibration': 0.3, 'rpm': 990, 'current': 9.44} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 3.88, 'vibration': 0.68, 'rpm': 1410, 'current': 7.52} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 1.92, 'vibration': 1.82, 'rpm': 714, 'current': 10.98} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 1.26, 'vibration': 0.76, 'rpm': 2531, 'current': 12.84} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 3.81, 'vibration': 4.07, 'rpm': 1149, 'current': 14.94} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 5.0, 'vibration': 0.29, 'rpm': 1936, 'current': 13.49} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 1.74, 'vibration': 4.83, 'rpm': 1825, 'current': 11.86} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 90, 'pressure': 2.74, 'vibration': 0.95, 'rpm': 1984, 'current': 8.2} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 4.99, 'vibration': 3.41, 'rpm': 1778, 'current': 9.53} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 4.93, 'vibration': 2.18, 'rpm': 1929, 'current': 13.31} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 4.78, 'vibration': 1.56, 'rpm': 2807, 'current': 7.41} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 3.43, 'vibration': 2.93, 'rpm': 2543, 'current': 11.93} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 3.89, 'vibration': 0.36, 'rpm': 831, 'current': 10.8} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 2.91, 'vibration': 1.11, 'rpm': 1734, 'current': 6.17} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 3.06, 'vibration': 4.2, 'rpm': 908, 'current': 10.01} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 57, 'pressure': 1.95, 'vibration': 1.66, 'rpm': 981, 'current': 6.68} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 3.57, 'vibration': 1.95, 'rpm': 630, 'current': 12.99} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 1.78, 'vibration': 2.44, 'rpm': 2026, 'current': 10.71} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 2.5, 'vibration': 2.48, 'rpm': 539, 'current': 11.7} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 3.11, 'vibration': 0.42, 'rpm': 823, 'current': 13.43} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 2.8, 'vibration': 3.96, 'rpm': 1111, 'current': 7.03} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 3.13, 'vibration': 0.42, 'rpm': 2749, 'current': 11.31} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 2.88, 'vibration': 4.83, 'rpm': 2559, 'current': 6.08} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 51, 'pressure': 1.83, 'vibration': 2.31, 'rpm': 2976, 'current': 12.31} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 1.81, 'vibration': 2.42, 'rpm': 1591, 'current': 14.81} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 3.2, 'vibration': 1.14, 'rpm': 1147, 'current': 12.09} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 1.94, 'vibration': 0.83, 'rpm': 2574, 'current': 7.08} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 1.11, 'vibration': 3.79, 'rpm': 1729, 'current': 5.15} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 2.82, 'vibration': 1.56, 'rpm': 747, 'current': 10.55} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 4.49, 'vibration': 2.82, 'rpm': 2094, 'current': 9.77} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 3.86, 'vibration': 4.93, 'rpm': 2684, 'current': 13.19} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 51, 'pressure': 1.61, 'vibration': 3.97, 'rpm': 2904, 'current': 5.16} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 1.11, 'vibration': 2.05, 'rpm': 781, 'current': 11.58} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 3.11, 'vibration': 4.26, 'rpm': 1968, 'current': 7.26} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 65, 'pressure': 3.1, 'vibration': 1.71, 'rpm': 1644, 'current': 11.34} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 4.44, 'vibration': 2.46, 'rpm': 1866, 'current': 7.14} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 82, 'pressure': 4.7, 'vibration': 0.75, 'rpm': 1450, 'current': 9.66} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 79, 'pressure': 2.05, 'vibration': 3.14, 'rpm': 2371, 'current': 13.25} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 2.95, 'vibration': 0.19, 'rpm': 1254, 'current': 12.63} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 4.79, 'vibration': 0.98, 'rpm': 2467, 'current': 13.72} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 58, 'pressure': 2.92, 'vibration': 0.36, 'rpm': 2647, 'current': 6.54} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 1.64, 'vibration': 3.95, 'rpm': 2638, 'current': 7.82} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 3.62, 'vibration': 4.95, 'rpm': 933, 'current': 8.74} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 1.57, 'vibration': 3.28, 'rpm': 2585, 'current': 7.82} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 4.64, 'vibration': 4.17, 'rpm': 2420, 'current': 6.48} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 63, 'pressure': 3.52, 'vibration': 4.81, 'rpm': 2499, 'current': 11.68} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 55, 'pressure': 2.65, 'vibration': 2.63, 'rpm': 1771, 'current': 7.81} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 3.87, 'vibration': 0.59, 'rpm': 2701, 'current': 7.54} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 4.1, 'vibration': 1.13, 'rpm': 1362, 'current': 7.08} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 1.06, 'vibration': 1.31, 'rpm': 2753, 'current': 10.07} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 86, 'pressure': 3.98, 'vibration': 1.15, 'rpm': 1526, 'current': 9.97} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 3.79, 'vibration': 0.73, 'rpm': 1721, 'current': 5.16} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 1.26, 'vibration': 3.57, 'rpm': 1893, 'current': 9.69} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 1.56, 'vibration': 3.28, 'rpm': 2329, 'current': 9.05} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 2.51, 'vibration': 1.01, 'rpm': 2016, 'current': 13.87} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 4.37, 'vibration': 2.93, 'rpm': 2525, 'current': 10.55} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 95, 'pressure': 2.09, 'vibration': 4.27, 'rpm': 2137, 'current': 9.77} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 72, 'pressure': 1.19, 'vibration': 4.95, 'rpm': 2539, 'current': 5.39} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 2.58, 'vibration': 0.33, 'rpm': 2844, 'current': 9.85} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 3.93, 'vibration': 1.21, 'rpm': 2117, 'current': 12.08} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 3.95, 'vibration': 2.92, 'rpm': 2669, 'current': 7.88} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 4.01, 'vibration': 1.71, 'rpm': 2581, 'current': 7.28} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 2.54, 'vibration': 0.71, 'rpm': 2748, 'current': 12.79} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 4.09, 'vibration': 3.93, 'rpm': 2719, 'current': 10.04} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 3.78, 'vibration': 0.2, 'rpm': 792, 'current': 13.64} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 4.65, 'vibration': 2.98, 'rpm': 765, 'current': 11.35} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 54, 'pressure': 2.7, 'vibration': 4.93, 'rpm': 659, 'current': 14.94} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 1.18, 'vibration': 4.67, 'rpm': 1969, 'current': 12.76} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 74, 'pressure': 1.2, 'vibration': 4.19, 'rpm': 2227, 'current': 11.2} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 90, 'pressure': 4.34, 'vibration': 1.91, 'rpm': 512, 'current': 6.23} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 56, 'pressure': 3.77, 'vibration': 4.49, 'rpm': 587, 'current': 6.68} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 88, 'pressure': 2.99, 'vibration': 3.82, 'rpm': 2442, 'current': 11.57} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 54, 'pressure': 3.67, 'vibration': 4.67, 'rpm': 1211, 'current': 13.35} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 2.98, 'vibration': 3.18, 'rpm': 1229, 'current': 11.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 2.25, 'vibration': 1.89, 'rpm': 1126, 'current': 13.82} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 1.8, 'vibration': 1.41, 'rpm': 2241, 'current': 10.67} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 3.0, 'vibration': 4.83, 'rpm': 828, 'current': 7.47} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 58, 'pressure': 3.23, 'vibration': 2.82, 'rpm': 1541, 'current': 9.06} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 3.45, 'vibration': 2.95, 'rpm': 2903, 'current': 6.27} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 1.21, 'vibration': 4.55, 'rpm': 2494, 'current': 5.88} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 85, 'pressure': 4.53, 'vibration': 0.35, 'rpm': 671, 'current': 7.86} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 77, 'pressure': 1.21, 'vibration': 4.09, 'rpm': 2902, 'current': 10.49} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 91, 'pressure': 3.03, 'vibration': 0.83, 'rpm': 2833, 'current': 5.95} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 93, 'pressure': 3.92, 'vibration': 3.28, 'rpm': 2117, 'current': 10.94} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 61, 'pressure': 1.8, 'vibration': 3.5, 'rpm': 2617, 'current': 10.17} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 2.14, 'vibration': 4.0, 'rpm': 541, 'current': 11.14} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 4.49, 'vibration': 3.34, 'rpm': 2563, 'current': 9.19} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 2.19, 'vibration': 4.74, 'rpm': 926, 'current': 14.75} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 3.42, 'vibration': 3.63, 'rpm': 1826, 'current': 7.5} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 52, 'pressure': 3.98, 'vibration': 3.09, 'rpm': 2560, 'current': 11.85} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 2.7, 'vibration': 0.41, 'rpm': 1828, 'current': 9.8} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 2.71, 'vibration': 0.69, 'rpm': 2184, 'current': 12.14} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 1.92, 'vibration': 0.41, 'rpm': 2160, 'current': 11.94} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 4.0, 'vibration': 2.22, 'rpm': 1337, 'current': 11.72} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 1.0, 'vibration': 0.77, 'rpm': 506, 'current': 10.9} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 2.75, 'vibration': 1.36, 'rpm': 1890, 'current': 9.85} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 1.31, 'vibration': 1.13, 'rpm': 2302, 'current': 11.16} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 2.8, 'vibration': 2.1, 'rpm': 2906, 'current': 11.84} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 3.85, 'vibration': 2.53, 'rpm': 1570, 'current': 14.87} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 1.37, 'vibration': 1.14, 'rpm': 556, 'current': 6.39} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 3.56, 'vibration': 2.1, 'rpm': 1615, 'current': 10.47} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 1.65, 'vibration': 3.49, 'rpm': 1771, 'current': 5.09} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 2.38, 'vibration': 1.82, 'rpm': 1782, 'current': 13.71} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 2.13, 'vibration': 3.9, 'rpm': 1705, 'current': 13.92} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 4.89, 'vibration': 4.91, 'rpm': 2072, 'current': 11.76} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 54, 'pressure': 3.88, 'vibration': 2.77, 'rpm': 746, 'current': 8.47} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 4.49, 'vibration': 3.49, 'rpm': 2340, 'current': 11.59} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 3.39, 'vibration': 4.61, 'rpm': 2523, 'current': 14.2} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 57, 'pressure': 4.74, 'vibration': 2.17, 'rpm': 506, 'current': 14.28} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 3.95, 'vibration': 0.47, 'rpm': 2642, 'current': 6.85} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 2.57, 'vibration': 3.51, 'rpm': 2866, 'current': 7.31} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 91, 'pressure': 2.13, 'vibration': 2.55, 'rpm': 2084, 'current': 10.59} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 90, 'pressure': 3.9, 'vibration': 4.41, 'rpm': 2078, 'current': 7.02} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 3.22, 'vibration': 2.05, 'rpm': 2459, 'current': 14.35} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 1.11, 'vibration': 3.36, 'rpm': 2338, 'current': 5.66} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 1.89, 'vibration': 2.77, 'rpm': 2328, 'current': 9.12} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 4.67, 'vibration': 1.68, 'rpm': 1980, 'current': 10.62} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 95, 'pressure': 1.19, 'vibration': 1.53, 'rpm': 1939, 'current': 6.82} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 53, 'pressure': 3.01, 'vibration': 1.04, 'rpm': 1737, 'current': 5.72} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 2.67, 'vibration': 1.41, 'rpm': 664, 'current': 10.13} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 3.64, 'vibration': 3.14, 'rpm': 1487, 'current': 13.59} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 4.11, 'vibration': 2.65, 'rpm': 2349, 'current': 11.77} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 1.87, 'vibration': 1.9, 'rpm': 2116, 'current': 5.6} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 4.41, 'vibration': 1.78, 'rpm': 2393, 'current': 9.81} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 3.33, 'vibration': 4.35, 'rpm': 978, 'current': 10.82} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 74, 'pressure': 4.74, 'vibration': 4.37, 'rpm': 710, 'current': 5.19} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 91, 'pressure': 1.99, 'vibration': 2.3, 'rpm': 1050, 'current': 13.62} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 81, 'pressure': 4.04, 'vibration': 2.61, 'rpm': 2746, 'current': 8.45} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 2.59, 'vibration': 1.98, 'rpm': 2622, 'current': 6.82} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 4.86, 'vibration': 2.14, 'rpm': 1387, 'current': 13.11} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 85, 'pressure': 3.97, 'vibration': 2.04, 'rpm': 1196, 'current': 5.42} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 4.71, 'vibration': 3.94, 'rpm': 1310, 'current': 6.94} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 62, 'pressure': 1.65, 'vibration': 1.43, 'rpm': 2150, 'current': 8.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 3.18, 'vibration': 3.64, 'rpm': 1051, 'current': 10.88} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 63, 'pressure': 2.22, 'vibration': 2.58, 'rpm': 1881, 'current': 11.29} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 2.89, 'vibration': 1.71, 'rpm': 2478, 'current': 14.19} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 3.95, 'vibration': 1.28, 'rpm': 2260, 'current': 14.29} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 1.17, 'vibration': 4.9, 'rpm': 1132, 'current': 14.04} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 56, 'pressure': 3.17, 'vibration': 0.51, 'rpm': 894, 'current': 5.47} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 57, 'pressure': 2.58, 'vibration': 4.97, 'rpm': 2011, 'current': 8.54} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 2.56, 'vibration': 2.29, 'rpm': 1541, 'current': 5.86} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 4.05, 'vibration': 1.97, 'rpm': 2385, 'current': 7.28} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 4.7, 'vibration': 0.16, 'rpm': 902, 'current': 5.75} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 1.07, 'vibration': 0.42, 'rpm': 919, 'current': 10.65} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 2.04, 'vibration': 2.32, 'rpm': 791, 'current': 7.87} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 3.02, 'vibration': 1.94, 'rpm': 852, 'current': 11.97} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 2.69, 'vibration': 1.0, 'rpm': 902, 'current': 12.12} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 3.63, 'vibration': 0.81, 'rpm': 531, 'current': 9.92} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 3.64, 'vibration': 2.45, 'rpm': 1340, 'current': 9.23} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 2.8, 'vibration': 3.15, 'rpm': 2731, 'current': 8.09} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 3.58, 'vibration': 2.55, 'rpm': 1184, 'current': 10.49} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 2.86, 'vibration': 2.32, 'rpm': 2207, 'current': 7.74} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.13, 'vibration': 4.85, 'rpm': 1262, 'current': 7.43} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 87, 'pressure': 4.12, 'vibration': 0.5, 'rpm': 2613, 'current': 11.38} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 52, 'pressure': 3.95, 'vibration': 4.15, 'rpm': 1964, 'current': 14.32} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 1.22, 'vibration': 4.39, 'rpm': 2106, 'current': 10.55} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 4.86, 'vibration': 0.36, 'rpm': 2066, 'current': 8.42} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 3.12, 'vibration': 2.72, 'rpm': 2732, 'current': 10.19} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 2.36, 'vibration': 0.81, 'rpm': 1861, 'current': 13.31} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 1.94, 'vibration': 1.68, 'rpm': 1065, 'current': 10.73} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 3.15, 'vibration': 3.0, 'rpm': 2436, 'current': 8.43} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 2.87, 'vibration': 2.55, 'rpm': 2549, 'current': 10.14} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 1.11, 'vibration': 2.45, 'rpm': 2428, 'current': 8.88} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 2.02, 'vibration': 1.02, 'rpm': 746, 'current': 13.18} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 3.85, 'vibration': 3.8, 'rpm': 757, 'current': 9.09} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 72, 'pressure': 2.29, 'vibration': 2.58, 'rpm': 995, 'current': 13.39} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 3.83, 'vibration': 1.48, 'rpm': 2792, 'current': 14.88} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 4.64, 'vibration': 0.56, 'rpm': 1175, 'current': 7.71} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 3.57, 'vibration': 4.14, 'rpm': 1539, 'current': 10.34} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 63, 'pressure': 4.28, 'vibration': 1.92, 'rpm': 1161, 'current': 14.16} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 2.6, 'vibration': 1.84, 'rpm': 2869, 'current': 8.3} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 1.86, 'vibration': 1.23, 'rpm': 1367, 'current': 5.83} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 2.93, 'vibration': 1.32, 'rpm': 613, 'current': 9.09} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 4.28, 'vibration': 2.76, 'rpm': 1648, 'current': 13.9} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 2.26, 'vibration': 0.79, 'rpm': 895, 'current': 6.02} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 1.66, 'vibration': 3.64, 'rpm': 2243, 'current': 8.28} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 2.67, 'vibration': 3.19, 'rpm': 2454, 'current': 13.66} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 4.51, 'vibration': 1.88, 'rpm': 2221, 'current': 7.59} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 1.86, 'vibration': 3.89, 'rpm': 2405, 'current': 9.39} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 2.6, 'vibration': 0.73, 'rpm': 1628, 'current': 10.81} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 2.24, 'vibration': 0.11, 'rpm': 703, 'current': 11.79} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 2.24, 'vibration': 0.89, 'rpm': 2413, 'current': 7.86} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 2.24, 'vibration': 3.57, 'rpm': 1390, 'current': 7.65} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 2.81, 'vibration': 2.78, 'rpm': 593, 'current': 11.5} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 1.05, 'vibration': 2.2, 'rpm': 824, 'current': 14.55} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 3.48, 'vibration': 3.97, 'rpm': 2680, 'current': 11.9} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 86, 'pressure': 4.83, 'vibration': 0.28, 'rpm': 844, 'current': 10.69} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 75, 'pressure': 4.41, 'vibration': 2.55, 'rpm': 2696, 'current': 10.23} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 4.03, 'vibration': 0.7, 'rpm': 2955, 'current': 11.75} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 2.7, 'vibration': 2.27, 'rpm': 2854, 'current': 11.55} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 4.06, 'vibration': 0.28, 'rpm': 1418, 'current': 12.92} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 2.19, 'vibration': 0.93, 'rpm': 1765, 'current': 14.12} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 1.12, 'vibration': 3.32, 'rpm': 1085, 'current': 5.59} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 88, 'pressure': 2.57, 'vibration': 3.99, 'rpm': 2799, 'current': 11.63} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 75, 'pressure': 4.59, 'vibration': 0.96, 'rpm': 558, 'current': 14.19} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 3.69, 'vibration': 3.36, 'rpm': 538, 'current': 12.0} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 66, 'pressure': 4.88, 'vibration': 3.52, 'rpm': 2583, 'current': 9.74} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 4.35, 'vibration': 0.5, 'rpm': 1001, 'current': 14.47} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 66, 'pressure': 1.74, 'vibration': 3.06, 'rpm': 1233, 'current': 5.31} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 93, 'pressure': 3.07, 'vibration': 3.28, 'rpm': 2331, 'current': 8.5} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 85, 'pressure': 2.51, 'vibration': 4.91, 'rpm': 702, 'current': 10.18} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 55, 'pressure': 3.71, 'vibration': 0.59, 'rpm': 2209, 'current': 11.47} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 2.17, 'vibration': 0.75, 'rpm': 1324, 'current': 10.06} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 3.1, 'vibration': 0.94, 'rpm': 2868, 'current': 5.19} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 3.62, 'vibration': 2.55, 'rpm': 2362, 'current': 7.15} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 91, 'pressure': 2.45, 'vibration': 3.04, 'rpm': 1229, 'current': 6.94} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 62, 'pressure': 3.46, 'vibration': 0.91, 'rpm': 1126, 'current': 9.64} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 4.5, 'vibration': 1.73, 'rpm': 2708, 'current': 12.72} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 3.57, 'vibration': 1.92, 'rpm': 2606, 'current': 12.63} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 3.15, 'vibration': 0.8, 'rpm': 1042, 'current': 5.05} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 4.13, 'vibration': 0.84, 'rpm': 2554, 'current': 13.84} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 1.99, 'vibration': 2.11, 'rpm': 994, 'current': 11.89} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 1.01, 'vibration': 4.89, 'rpm': 1624, 'current': 10.12} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 4.3, 'vibration': 2.91, 'rpm': 828, 'current': 9.7} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 77, 'pressure': 1.6, 'vibration': 0.3, 'rpm': 2302, 'current': 10.82} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 3.64, 'vibration': 3.21, 'rpm': 1950, 'current': 12.57} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 76, 'pressure': 3.72, 'vibration': 1.93, 'rpm': 2314, 'current': 7.63} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 4.59, 'vibration': 0.88, 'rpm': 2399, 'current': 11.33} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 90, 'pressure': 1.58, 'vibration': 3.5, 'rpm': 1667, 'current': 7.75} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 4.26, 'vibration': 2.76, 'rpm': 2525, 'current': 8.93} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 2.03, 'vibration': 2.6, 'rpm': 521, 'current': 12.92} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 4.01, 'vibration': 1.94, 'rpm': 2359, 'current': 13.76} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 86, 'pressure': 4.57, 'vibration': 1.09, 'rpm': 2213, 'current': 11.29} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 60, 'pressure': 3.72, 'vibration': 0.24, 'rpm': 1233, 'current': 10.37} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 83, 'pressure': 2.97, 'vibration': 1.51, 'rpm': 936, 'current': 9.72} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 2.81, 'vibration': 3.08, 'rpm': 1279, 'current': 12.61} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 1.56, 'vibration': 3.33, 'rpm': 827, 'current': 5.96} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 2.78, 'vibration': 2.54, 'rpm': 1181, 'current': 13.67} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 2.2, 'vibration': 2.29, 'rpm': 1673, 'current': 5.51} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 54, 'pressure': 4.69, 'vibration': 2.15, 'rpm': 2630, 'current': 9.04} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 1.16, 'vibration': 3.04, 'rpm': 2494, 'current': 7.9} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 3.3, 'vibration': 3.97, 'rpm': 532, 'current': 10.2} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 50, 'pressure': 2.69, 'vibration': 3.15, 'rpm': 1165, 'current': 11.12} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 1.84, 'vibration': 3.53, 'rpm': 1054, 'current': 6.01} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 74, 'pressure': 1.35, 'vibration': 2.75, 'rpm': 1431, 'current': 5.39} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 1.97, 'vibration': 1.86, 'rpm': 2918, 'current': 14.12} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 4.44, 'vibration': 0.59, 'rpm': 656, 'current': 11.25} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 1.79, 'vibration': 3.34, 'rpm': 2374, 'current': 7.51} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 61, 'pressure': 4.73, 'vibration': 4.57, 'rpm': 2798, 'current': 10.88} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 72, 'pressure': 2.95, 'vibration': 4.72, 'rpm': 2644, 'current': 13.8} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 54, 'pressure': 4.44, 'vibration': 2.88, 'rpm': 1794, 'current': 8.47} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 3.97, 'vibration': 0.8, 'rpm': 1637, 'current': 11.1} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 74, 'pressure': 2.34, 'vibration': 1.6, 'rpm': 2583, 'current': 11.31} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 87, 'pressure': 2.5, 'vibration': 4.29, 'rpm': 1125, 'current': 10.87} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 88, 'pressure': 1.97, 'vibration': 3.21, 'rpm': 2261, 'current': 8.93} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 3.07, 'vibration': 3.25, 'rpm': 982, 'current': 11.11} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 2.33, 'vibration': 3.22, 'rpm': 830, 'current': 12.86} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 3.93, 'vibration': 4.72, 'rpm': 2267, 'current': 12.22} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 89, 'pressure': 4.51, 'vibration': 4.91, 'rpm': 1982, 'current': 8.67} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 94, 'pressure': 4.77, 'vibration': 4.42, 'rpm': 646, 'current': 12.72} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 94, 'pressure': 1.21, 'vibration': 4.9, 'rpm': 1469, 'current': 5.51} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 64, 'pressure': 4.89, 'vibration': 2.11, 'rpm': 2913, 'current': 13.24} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 52, 'pressure': 1.19, 'vibration': 2.61, 'rpm': 1978, 'current': 11.41} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 57, 'pressure': 4.94, 'vibration': 2.51, 'rpm': 1104, 'current': 6.94} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 2.68, 'vibration': 4.04, 'rpm': 2126, 'current': 12.77} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 93, 'pressure': 1.57, 'vibration': 3.29, 'rpm': 1212, 'current': 13.35} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 59, 'pressure': 1.23, 'vibration': 3.62, 'rpm': 2791, 'current': 5.0} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 4.99, 'vibration': 0.37, 'rpm': 1602, 'current': 11.88} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 62, 'pressure': 4.85, 'vibration': 2.47, 'rpm': 1800, 'current': 14.46} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 3.54, 'vibration': 3.59, 'rpm': 1637, 'current': 9.94} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 80, 'pressure': 4.88, 'vibration': 1.24, 'rpm': 2226, 'current': 14.4} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 4.49, 'vibration': 0.66, 'rpm': 2518, 'current': 7.95} | Rule: OVERHEATING_PRESSURE_RISK | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 3.36, 'vibration': 0.55, 'rpm': 1003, 'current': 11.75} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 71, 'pressure': 2.92, 'vibration': 1.84, 'rpm': 2596, 'current': 6.76} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 2.56, 'vibration': 1.87, 'rpm': 2991, 'current': 14.84} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 3.76, 'vibration': 0.66, 'rpm': 1860, 'current': 5.93} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 91, 'pressure': 2.59, 'vibration': 4.05, 'rpm': 2352, 'current': 6.73} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 76, 'pressure': 1.42, 'vibration': 0.84, 'rpm': 820, 'current': 8.34} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 65, 'pressure': 1.08, 'vibration': 3.96, 'rpm': 2160, 'current': 8.28} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 2.22, 'vibration': 4.92, 'rpm': 2810, 'current': 11.2} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 73, 'pressure': 1.08, 'vibration': 1.28, 'rpm': 2888, 'current': 10.07} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 70, 'pressure': 1.83, 'vibration': 2.44, 'rpm': 593, 'current': 11.74} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 4.22, 'vibration': 2.07, 'rpm': 563, 'current': 14.42} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 3.33, 'vibration': 3.37, 'rpm': 1364, 'current': 8.75} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 82, 'pressure': 1.58, 'vibration': 4.13, 'rpm': 1091, 'current': 5.32} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 56, 'pressure': 3.19, 'vibration': 3.12, 'rpm': 1810, 'current': 12.14} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 69, 'pressure': 4.98, 'vibration': 0.81, 'rpm': 2799, 'current': 13.98} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 2.05, 'vibration': 1.73, 'rpm': 2284, 'current': 11.86} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 62, 'pressure': 3.02, 'vibration': 4.89, 'rpm': 2789, 'current': 8.5} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 4.07, 'vibration': 0.19, 'rpm': 1338, 'current': 14.03} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 4.97, 'vibration': 0.83, 'rpm': 2131, 'current': 14.55} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 58, 'pressure': 3.8, 'vibration': 0.81, 'rpm': 1746, 'current': 7.89} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 60, 'pressure': 2.86, 'vibration': 2.32, 'rpm': 1037, 'current': 7.1} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 4.66, 'vibration': 3.35, 'rpm': 1129, 'current': 12.62} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 79, 'pressure': 1.16, 'vibration': 3.83, 'rpm': 1610, 'current': 7.29} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 1.21, 'vibration': 3.54, 'rpm': 2085, 'current': 6.87} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 70, 'pressure': 1.09, 'vibration': 0.48, 'rpm': 1685, 'current': 12.03} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 78, 'pressure': 4.24, 'vibration': 3.44, 'rpm': 2596, 'current': 13.32} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 59, 'pressure': 4.28, 'vibration': 3.73, 'rpm': 1279, 'current': 8.44} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 4.51, 'vibration': 4.89, 'rpm': 2091, 'current': 7.54} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 86, 'pressure': 2.92, 'vibration': 3.04, 'rpm': 1443, 'current': 14.26} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 67, 'pressure': 4.68, 'vibration': 4.5, 'rpm': 1089, 'current': 13.12} | Rule: MOTOR_OVERLOAD | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 68, 'pressure': 3.6, 'vibration': 2.17, 'rpm': 1620, 'current': 8.73} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 3.0, 'vibration': 0.53, 'rpm': 1189, 'current': 12.01} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 94, 'pressure': 1.86, 'vibration': 3.36, 'rpm': 1948, 'current': 7.03} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 71, 'pressure': 3.1, 'vibration': 0.23, 'rpm': 1126, 'current': 7.38} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 53, 'pressure': 2.35, 'vibration': 0.87, 'rpm': 1203, 'current': 13.02} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 56, 'pressure': 1.6, 'vibration': 3.36, 'rpm': 1303, 'current': 9.88} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 94, 'pressure': 3.33, 'vibration': 0.94, 'rpm': 1839, 'current': 11.0} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 58, 'pressure': 1.3, 'vibration': 4.62, 'rpm': 966, 'current': 7.09} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 69, 'pressure': 2.6, 'vibration': 1.04, 'rpm': 676, 'current': 10.16} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 92, 'pressure': 2.28, 'vibration': 1.12, 'rpm': 2150, 'current': 11.34} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 65, 'pressure': 1.46, 'vibration': 0.61, 'rpm': 2924, 'current': 6.33} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 63, 'pressure': 2.13, 'vibration': 4.74, 'rpm': 2210, 'current': 5.4} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 61, 'pressure': 1.1, 'vibration': 3.87, 'rpm': 2984, 'current': 10.32} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 95, 'pressure': 1.84, 'vibration': 0.96, 'rpm': 1508, 'current': 9.6} | Rule: EMERGENCY_HIGH_TEMP | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 84, 'pressure': 1.94, 'vibration': 4.31, 'rpm': 2923, 'current': 7.34} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 79, 'pressure': 4.44, 'vibration': 3.17, 'rpm': 1165, 'current': 11.67} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 89, 'pressure': 3.38, 'vibration': 4.55, 'rpm': 1839, 'current': 7.68} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 1.35, 'vibration': 1.81, 'rpm': 1876, 'current': 13.44} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 64, 'pressure': 1.1, 'vibration': 4.11, 'rpm': 773, 'current': 7.42} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 83, 'pressure': 1.51, 'vibration': 4.7, 'rpm': 2109, 'current': 12.99} | Rule: CRITICAL_MACHINE_FAILURE | Action: EMERGENCY_STOP | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 54, 'pressure': 2.25, 'vibration': 0.18, 'rpm': 2522, 'current': 10.21} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 84, 'pressure': 3.78, 'vibration': 2.95, 'rpm': 2881, 'current': 7.31} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 51, 'pressure': 4.61, 'vibration': 2.93, 'rpm': 1567, 'current': 12.02} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 81, 'pressure': 1.44, 'vibration': 0.7, 'rpm': 2974, 'current': 10.77} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 80, 'pressure': 4.35, 'vibration': 0.51, 'rpm': 794, 'current': 6.01} | Rule: HIGH_PRESSURE | Action: CHECK_PRESSURE | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 77, 'pressure': 2.13, 'vibration': 1.12, 'rpm': 2652, 'current': 13.71} | Rule: HIGH_CURRENT | Action: REDUCE_LOAD | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 73, 'pressure': 1.1, 'vibration': 4.53, 'rpm': 1447, 'current': 11.47} | Rule: HIGH_VIBRATION | Action: STOP_MACHINE | Recovery: MACHINE_STILL_UNSAFE - Keep machine stopped
+Reading: {'temperature': 68, 'pressure': 3.75, 'vibration': 3.11, 'rpm': 1529, 'current': 12.86} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 55, 'pressure': 2.3, 'vibration': 3.8, 'rpm': 2712, 'current': 5.97} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 75, 'pressure': 3.25, 'vibration': 0.6, 'rpm': 1563, 'current': 7.92} | Rule: NO_RULE_FIRED | Action: CONTINUE_NORMAL | Recovery: NO_RECOVERY_NEEDED
+Reading: {'temperature': 85, 'pressure': 1.3, 'vibration': 2.72, 'rpm': 2511, 'current': 8.84} | Rule: HIGH_TEMPERATURE | Action: COOL_MACHINE | Recovery: NO_RECOVERY_NEEDED
