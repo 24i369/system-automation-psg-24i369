@@ -29,7 +29,7 @@ def generate_sensor_data():
         "pressure": round(random.uniform(1.0, 5.0), 2),
         "vibration": round(random.uniform(0.1, 5.0), 2),
         "current": round(random.uniform(5.0, 15.0), 2)
-    }
+            }
 
     # STRETCH GOAL (after the 8 steps below all work): real sensors aren't
     # perfectly clean. Try making one field randomly return None (a
@@ -186,6 +186,7 @@ def self_recovery(reading, action):
             and reading["pressure"] < 3.5
             and reading["vibration"] < 2.5
             and reading["current"] < 10
+        
         ):
             return "MACHINE_RECOVERED - Restarting automatically"
 

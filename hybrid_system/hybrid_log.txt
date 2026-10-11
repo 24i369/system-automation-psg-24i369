@@ -1,0 +1,166 @@
+HYBRID MACHINE MONITORING LOG
+
+Timestamp: 2026-10-11 16:53:53.468190
+Machine: CNC Machine
+Sensor readings: {'temperature': 93, 'pressure': 3.63, 'vibration': 3.53, 'current': 11.81, 'rpm': 2314}
+Logical rule: EMERGENCY_HIGH_TEMP
+Logical action: EMERGENCY_STOP
+AI prediction: STOPPED
+AI confidence: 93.50%
+Final status: STOPPED
+Final action: EMERGENCY_STOP
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.496684
+Machine: Conveyor Motor
+Sensor readings: {'temperature': 92, 'pressure': 4.04, 'vibration': 0.82, 'current': 6.06, 'rpm': 1230}
+Logical rule: EMERGENCY_HIGH_TEMP
+Logical action: EMERGENCY_STOP
+AI prediction: STOPPED
+AI confidence: 81.50%
+Final status: STOPPED
+Final action: EMERGENCY_STOP
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.525480
+Machine: Hydraulic Press
+Sensor readings: {'temperature': 82, 'pressure': 4.67, 'vibration': 3.81, 'current': 10.43, 'rpm': 2739}
+Logical rule: HIGH_TEMPERATURE
+Logical action: COOL_MACHINE
+AI prediction: STOPPED
+AI confidence: 88.00%
+Final status: STOPPED
+Final action: STOP_MACHINE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.557739
+Machine: Air Compressor
+Sensor readings: {'temperature': 67, 'pressure': 4.58, 'vibration': 4.05, 'current': 8.22, 'rpm': 1955}
+Logical rule: HIGH_VIBRATION
+Logical action: STOP_MACHINE
+AI prediction: WARNING
+AI confidence: 52.00%
+Final status: STOPPED
+Final action: STOP_MACHINE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.586023
+Machine: Industrial Pump
+Sensor readings: {'temperature': 53, 'pressure': 2.59, 'vibration': 2.59, 'current': 11.6, 'rpm': 1383}
+Logical rule: NO_RULE_FIRED
+Logical action: CONTINUE_NORMAL
+AI prediction: NORMAL
+AI confidence: 97.00%
+Final status: NORMAL
+Final action: CONTINUE_NORMAL
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.618322
+Machine: CNC Machine
+Sensor readings: {'temperature': 50, 'pressure': 2.91, 'vibration': 1.35, 'current': 9.85, 'rpm': 2064}
+Logical rule: NO_RULE_FIRED
+Logical action: CONTINUE_NORMAL
+AI prediction: NORMAL
+AI confidence: 95.50%
+Final status: NORMAL
+Final action: CONTINUE_NORMAL
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.648127
+Machine: Conveyor Motor
+Sensor readings: {'temperature': 79, 'pressure': 1.1, 'vibration': 4.18, 'current': 9.95, 'rpm': 2278}
+Logical rule: HIGH_VIBRATION
+Logical action: STOP_MACHINE
+AI prediction: STOPPED
+AI confidence: 67.50%
+Final status: STOPPED
+Final action: STOP_MACHINE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.676879
+Machine: Hydraulic Press
+Sensor readings: {'temperature': 56, 'pressure': 4.34, 'vibration': 1.15, 'current': 12.42, 'rpm': 1221}
+Logical rule: HIGH_PRESSURE
+Logical action: CHECK_PRESSURE
+AI prediction: WARNING
+AI confidence: 89.50%
+Final status: WARNING
+Final action: CHECK_PRESSURE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.702977
+Machine: Air Compressor
+Sensor readings: {'temperature': 63, 'pressure': 3.32, 'vibration': 0.76, 'current': 5.97, 'rpm': 1689}
+Logical rule: NO_RULE_FIRED
+Logical action: CONTINUE_NORMAL
+AI prediction: NORMAL
+AI confidence: 98.00%
+Final status: NORMAL
+Final action: CONTINUE_NORMAL
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.731870
+Machine: Industrial Pump
+Sensor readings: {'temperature': 77, 'pressure': 3.36, 'vibration': 3.4, 'current': 8.52, 'rpm': 580}
+Logical rule: NO_RULE_FIRED
+Logical action: CONTINUE_NORMAL
+AI prediction: NORMAL
+AI confidence: 94.50%
+Final status: NORMAL
+Final action: CONTINUE_NORMAL
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.758434
+Machine: CNC Machine
+Sensor readings: {'temperature': 71, 'pressure': 4.63, 'vibration': 2.3, 'current': 8.89, 'rpm': 750}
+Logical rule: HIGH_PRESSURE
+Logical action: CHECK_PRESSURE
+AI prediction: WARNING
+AI confidence: 88.00%
+Final status: WARNING
+Final action: CHECK_PRESSURE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.787255
+Machine: Conveyor Motor
+Sensor readings: {'temperature': 58, 'pressure': 4.91, 'vibration': 1.95, 'current': 10.84, 'rpm': 1447}
+Logical rule: HIGH_PRESSURE
+Logical action: CHECK_PRESSURE
+AI prediction: WARNING
+AI confidence: 75.50%
+Final status: WARNING
+Final action: CHECK_PRESSURE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.817320
+Machine: Hydraulic Press
+Sensor readings: {'temperature': 88, 'pressure': 4.71, 'vibration': 1.99, 'current': 12.1, 'rpm': 2758}
+Logical rule: HIGH_TEMPERATURE
+Logical action: COOL_MACHINE
+AI prediction: STOPPED
+AI confidence: 87.50%
+Final status: STOPPED
+Final action: STOP_MACHINE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.848177
+Machine: Air Compressor
+Sensor readings: {'temperature': 80, 'pressure': 4.07, 'vibration': 2.35, 'current': 9.9, 'rpm': 2004}
+Logical rule: HIGH_PRESSURE
+Logical action: CHECK_PRESSURE
+AI prediction: WARNING
+AI confidence: 70.00%
+Final status: WARNING
+Final action: CHECK_PRESSURE
+--------------------------------------------------
+
+Timestamp: 2026-10-11 16:53:53.878514
+Machine: Industrial Pump
+Sensor readings: {'temperature': 57, 'pressure': 1.11, 'vibration': 4.59, 'current': 7.33, 'rpm': 2736}
+Logical rule: HIGH_VIBRATION
+Logical action: STOP_MACHINE
+AI prediction: STOPPED
+AI confidence: 85.00%
+Final status: STOPPED
+Final action: STOP_MACHINE
+--------------------------------------------------

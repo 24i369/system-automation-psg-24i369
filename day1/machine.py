@@ -14,7 +14,8 @@ def generate_sensor_data():
         "temperature": random.randint(50, 95),
         "pressure": round(random.uniform(1.0, 5.0), 2),
         "vibration": round(random.uniform(0.1, 5.0), 2),
-        "current": round(random.uniform(5.0, 15.0), 2)
+        "current": round(random.uniform(5.0, 15.0), 2),
+        "rpm": random.randint(506, 2991)
     }
 
 
